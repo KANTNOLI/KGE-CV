@@ -5,6 +5,7 @@ import Pagination from "./components/Pagination"
 
 import Biography from "./components/Biography";
 import Thoughts from "./components/Thoughts";
+import AboutProject from "./components/AboutProject";
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         return <Biography></Biography>
       case "Thoughts":
         return <Thoughts></Thoughts>
+      case "About the Project":
+        return <AboutProject></AboutProject>
       default:
         return <>error</>
     }

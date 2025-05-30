@@ -14,7 +14,7 @@ function Thoughts() {
             </div>
 
 
-            <div  className={style.listContent}>
+            <div tabIndex={1}  className={style.listContent}>
                 <p>Key points:</p>
                 <ul>
                     <li>Creating a <span>3D engine</span></li>
@@ -29,13 +29,26 @@ function Thoughts() {
             </div>
 
             <div className={style.imgContent}>
-                <img tabIndex={1} src="http://localhost:2403/66-66-66-66-6666/assets/img/KGE5.png" alt="" />
+                <img tabIndex={2} src="http://91.240.85.151:2403/66-66-66-66-6666/assets/img/KGE5.png" alt="" />
             </div>
 
             <div className={style.content}>
                 <div className={style.contentText}>
-                    <p tabIndex={0} className={style.contentTitle}>Why was this project <span>created at all?</span></p>
+                    <p tabIndex={3} className={style.contentTitle}>Why was this project <span>created at all?</span></p>
                     <p className={style.contentDesc}>In fact, this project is both my portfolio and a collaboration with VBAL, in which I believe and share my best practices. And I decided to create a project as a portfolio and for the programming exam, combining business with pleasure, drawing inspiration from various websites of other people, and as soon as I found something special, challenging and challenging, I sat down at it and started doing it!</p>
+                </div>
+            </div>
+
+            <div className={style.imgContent}>
+                <img tabIndex={4} src="http://91.240.85.151:2403/66-66-66-66-6666/assets/img/KGE6.png" alt="" />
+            </div>
+
+
+            <div className={style.content}>
+                <div className={style.contentText}>
+                    <p tabIndex={5} className={style.contentTitle}>What are my future <span>plans?</span></p>
+                    <p className={style.contentDesc}>Next, I plan to develop this site more and more, at the time of writing this post, the computer part is ready, in the future another phone version is planned, the logic is the same except for models and optimization in some points.</p>
+                    <p className={style.contentDesc}>At the same time, I would like to find a job, this project is more like a Pet project for me, which not only serves as a portfolio and advertising for me, but also helps an indie company VBAL, in which I believe with all my heart. There were also thoughts about monetization of the site, but that's not the point now)</p>
                 </div>
             </div>
 
