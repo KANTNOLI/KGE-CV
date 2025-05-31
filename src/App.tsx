@@ -6,6 +6,7 @@ import Pagination from "./components/Pagination"
 import Biography from "./components/Biography";
 import Thoughts from "./components/Thoughts";
 import AboutProject from "./components/AboutProject";
+import Works from "./components/Works";
 
 
 function App() {
@@ -23,8 +24,10 @@ function App() {
         return <Thoughts></Thoughts>
       case "About the Project":
         return <AboutProject></AboutProject>
+      case "Works":
+        return <Works></Works>
       default:
-        return <>error</>
+        return <>ну и что ты тут забыл прогер хуев</>
     }
   }
 
