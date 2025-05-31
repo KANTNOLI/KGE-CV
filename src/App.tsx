@@ -13,23 +13,29 @@ function App() {
   const [searchParams] = useSearchParams();
   const portfolioPage: string | null = searchParams.get('portfolioPage')
 
-  console.log(portfolioPage);
-
   const renderPage = (): React.ReactNode => {
 
-    switch (portfolioPage) {
-      case "Biography":
-        return <Biography></Biography>
-      case "Thoughts":
-        return <Thoughts></Thoughts>
-      case "About the Project":
-        return <AboutProject></AboutProject>
-      case "Works":
-        return <Works></Works>
-      default:
-        return <>ну и что ты тут забыл прогер хуев</>
+    if (portfolioPage) {
+      switch (portfolioPage) {
+        case "Biography":
+          return <Biography />
+        case "Thoughts":
+          return <Thoughts />
+        case "AboutTheProjectt":
+          return <AboutProject />
+        case "Works":
+          return <Works />
+        default:
+          return <div>ну и что ты тут забыл прогер хуев</div>
+      }
     }
+
+    return <p>test</p>
   }
+
+
+
+
 
 
   return (
@@ -38,12 +44,11 @@ function App() {
         path="/"
         element={
           portfolioPage ?
-            <section className={style.body}>
+            (<section className={style.body}>
               <Pagination></Pagination>
               {renderPage()}
-            </section> :
-            <Pagination></Pagination>
-
+            </section>) :
+            (<Pagination></Pagination>)
         }
       />
     </Routes>

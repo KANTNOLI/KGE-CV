@@ -8,6 +8,6 @@ createRoot(document.getElementById('root-66-66-66-66-6666')!).render(
   <StrictMode>
     <BrowserRouter>
       <App />
-      </BrowserRouter>
-  </StrictMode>,
+    </BrowserRouter>
+  </StrictMode>
 )

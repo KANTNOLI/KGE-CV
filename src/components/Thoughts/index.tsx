@@ -48,7 +48,7 @@ function Thoughts() {
                 <div className={style.contentText}>
                     <p tabIndex={5} className={style.contentTitle}>What are my future <span>plans?</span></p>
                     <p className={style.contentDesc}>Next, I plan to develop this site more and more, at the time of writing this post, the computer part is ready, in the future another phone version is planned, the logic is the same except for models and optimization in some points.</p>
-                    <p className={style.contentDesc}>At the same time, I would like to find a job, this project is more like a Pet project for me, which not only serves as a portfolio and advertising for me, but also helps an indie company VBAL, in which I believe with all my heart. There were also thoughts about monetization of the site, but that's not the point now)</p>
+                    <p className={style.contentDesc}>At the same time, I would like to find a job, this project is more like a Pet project for me, which not only serves as a portfolio and advertising for me, but also helps an indie company VBAL, in which I believe with all my heart. There were also thoughts about monetization of the site, but that's not the point now{")"}</p>
                 </div>
             </div>
 
