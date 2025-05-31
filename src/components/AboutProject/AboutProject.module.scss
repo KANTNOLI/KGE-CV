@@ -15,6 +15,7 @@
             width: calc(98% - 200px);
 
             .contentTitle {
+                letter-spacing: 1px;
                 text-indent: 10px;
                 //background-color: red;
                 min-width: 300px;
@@ -66,7 +67,7 @@
         margin-top: 25px;
 
         p {
-
+            letter-spacing: 2px;
             color: white;
             font-size: 30px;
             font-family: "Alfa Slab One", serif;
