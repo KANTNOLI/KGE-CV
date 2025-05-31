@@ -13,7 +13,7 @@ function AboutProject() {
             </div>
 
 
-            <div className={style.listContent}>
+            <div tabIndex={1}  className={style.listContent}>
                 <p>Important development points:</p>
                 <ul>
                     <li>Creating an <span>engine</span></li>
@@ -27,7 +27,7 @@ function AboutProject() {
 
             <div className={style.content}>
                 <div className={style.contentText}>
-                    <p tabIndex={0} className={style.contentTitle}><span>Where did I start?</span> Why start with the creation of the engine, and not something else?</p>
+                    <p tabIndex={2} className={style.contentTitle}><span>Where did I start?</span> Why start with the creation of the engine, and not something else?</p>
                     <p className={style.contentDesc}>Actually, this is not my first 3D-related project, it's the first time I've tried working with THREE.js in early 2024 and only a year later decided to do something more serious on it than a first-person game where you can only run)</p>
 
                     <p className={style.contentDesc}>I started making the engine after the first more serious 3D project, namely checkers) This project is in the public domain! When writing this project, I made the most poor and simple engine, which implied the level of func {`calc(a,b)=>a+b`}.</p>
@@ -38,13 +38,13 @@ function AboutProject() {
 
 
             <div className={style.imgContent}>
-                <img tabIndex={1} src="http://91.240.85.151:2403/66-66-66-66-6666/assets/img/KGE1.png" alt="" />
+                <img tabIndex={3} src="http://91.240.85.151:2403/66-66-66-66-6666/assets/img/KGE1.png" alt="" />
             </div>
 
 
             <div className={style.content}>
                 <div className={style.contentText}>
-                    <p tabIndex={0} className={style.contentTitle}><span>The work of two different scenes!</span> They overlap each other, so how do you work with them?</p>
+                    <p tabIndex={4} className={style.contentTitle}><span>The work of two different scenes!</span> They overlap each other, so how do you work with them?</p>
                     <p className={style.contentDesc}>Initially, I started doing a project in Angular... If you're laughing at me now, then fuck you!) But! Despite the fact that I worked with this shit, I managed to do 60% of what you see now! So it's not funny, I'm just persistent and because of that my engine works ON ALL FRAMEWORKS, now it's not so funny, right?</p>
 
                     <p className={style.contentDesc}>The main problem is that no one on the Internet fucking knew how to interject two different scenes together, I know that there is a working alternative for React, but my solution is no worse and I can develop it any way I want and use it anywhere! Then my brilliant brain came up with a solution... Let's use the game optimization system, where part of the objects outside the user's objective is cut out! It has the same mechanics, but with my conditions) Now everything that is located exactly at the back of the HTML sheet is removed so that it is clearly visible, and what is in front or does not fit into the space under the clipping remains! Next, I will show a more detailed description of this feature with screenshots.</p>
@@ -52,12 +52,12 @@ function AboutProject() {
             </div>
 
             <div className={style.imgContent}>
-                <img tabIndex={1} src="http://91.240.85.151:2403/66-66-66-66-6666/assets/img/KGE2.png" alt="" />
+                <img tabIndex={5} src="http://91.240.85.151:2403/66-66-66-66-6666/assets/img/KGE2.png" alt="" />
             </div>
 
             <div className={style.content}>
                 <div className={style.contentText}>
-                    <p tabIndex={0} className={style.contentTitle}><span>Why the fuck did I switch to another framework? </span>How did it affect the project and do I regret it?</p>
+                    <p tabIndex={6} className={style.contentTitle}><span>Why the fuck did I switch to another framework? </span>How did it affect the project and do I regret it?</p>
                     <p className={style.contentDesc}>I must say right away, I have never regretted my mistakes and I never will, yes, it may have hurt for the time I spent, yes, it may have been a shame, but! Mistakes make us stronger, and that's damn right!</p>
 
                     <p className={style.contentDesc}>If it hadn't been for the mistake in choosing the framework (Angular), I wouldn't have started developing my engine, I wouldn't have started coming up with an implementation of how two scenes work together, I wouldn't have done a lot of things, but I did it, and it's cool!</p>
@@ -68,13 +68,13 @@ function AboutProject() {
             </div>
 
             <div className={style.imgContent}>
-                <img tabIndex={1} src="http://91.240.85.151:2403/66-66-66-66-6666/assets/img/KGE3.png" alt="" />
+                <img tabIndex={7} src="http://91.240.85.151:2403/66-66-66-66-6666/assets/img/KGE3.png" alt="" />
             </div>
 
 
             <div className={style.content}>
                 <div className={style.contentText}>
-                    <p tabIndex={0} className={style.contentTitle}><span>And now the most interesting part! </span> How did I organize the collaboration with the server and <span>why at all?</span></p>
+                    <p tabIndex={8} className={style.contentTitle}><span>And now the most interesting part! </span> How did I organize the collaboration with the server and <span>why at all?</span></p>
                     <p className={style.contentDesc}>Have you ever wondered why some people can invent something cool and others can't, even though everyone has the same chance? It's just that some people invent a second bike, while others make it electronic...</p>
 
                     <p className={style.contentDesc}>The idea of this project was not 100% mine, I was looking for INSPIRATION from others and found it, I found something that inspired me and did not do the same, but I did and improved! What does the server have to do with it? And now I will tell you the most important feature of my project, which scales it 1000x, relative to my mastermind!</p>
@@ -85,12 +85,12 @@ function AboutProject() {
             </div>
 
             <div className={style.imgContent}>
-                <img tabIndex={1} src="http://91.240.85.151:2403/66-66-66-66-6666/assets/img/KGE4.png" alt="" />
+                <img tabIndex={9} src="http://91.240.85.151:2403/66-66-66-66-6666/assets/img/KGE4.png" alt="" />
             </div>
 
             <div className={style.content}>
                 <div className={style.contentText}>
-                    <p tabIndex={0} className={style.contentTitle}><span>What advice could I give you</span> if you're crazy and decide to repeat my project?</p>
+                    <p tabIndex={10} className={style.contentTitle}><span>What advice could I give you</span> if you're crazy and decide to repeat my project?</p>
                     <p className={style.contentDesc}>To begin with, let me know that it would be interesting for me to see this and support you, humanity is developing thanks to madmen like us!</p>
 
                     <p className={style.contentDesc}>Don't be afraid to make mistakes, mistakes are never a bad thing, either you get an experience that will propel you forward, or a mistake turns out to be luck!</p>
