@@ -1,4 +1,4 @@
-import { Route, Routes, useSearchParams } from "react-router"
+import { Route, Routes, useSearchParams } from "react-router-dom"
 import style from "./App.module.scss"
 
 import Pagination from "./components/Pagination"

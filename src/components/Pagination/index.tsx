@@ -1,4 +1,4 @@
-import { Link, useSearchParams } from "react-router";
+import { Link, useSearchParams } from "react-router-dom";
 import style from "./Pagination.module.scss"
 import { useEffect, useRef } from "react";
 
