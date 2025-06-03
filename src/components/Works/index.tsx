@@ -20,7 +20,7 @@ function Works() {
             </div>
 
             <div className={style.imgContent}>
-                <img tabIndex={9} src="http://91.240.85.151:2403/66-66-66-66-6666/assets/img/KMNotes.jpg" alt="" />
+                <img tabIndex={9} src="https://web.fractureverse.space/66-66-66-66-6666/assets/img/KMNotes.jpg" alt="" />
             </div>
 
             <div className={style.content}>
@@ -33,7 +33,7 @@ function Works() {
             </div>
 
             <div className={style.imgContent}>
-                <img tabIndex={9} src="http://91.240.85.151:2403/66-66-66-66-6666/assets/img/KGECheckers.png" alt="" />
+                <img tabIndex={9} src="https://web.fractureverse.space/66-66-66-66-6666/assets/img/KGECheckers.png" alt="" />
             </div>
 
             <div className={style.content}>
@@ -46,7 +46,7 @@ function Works() {
             </div>
 
             <div className={style.imgContent}>
-                <img tabIndex={9} src="http://91.240.85.151:2403/66-66-66-66-6666/assets/img/KGECVold.jpg" alt="" />
+                <img tabIndex={9} src="https://web.fractureverse.space/66-66-66-66-6666/assets/img/KGECVold.jpg" alt="" />
             </div>
 
 

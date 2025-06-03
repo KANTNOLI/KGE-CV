@@ -1,57 +1,48 @@
-import { Route, Routes, useSearchParams } from "react-router-dom"
-import style from "./App.module.scss"
-
-import Pagination from "./components/Pagination"
-
-import Biography from "./components/Biography";
-import Thoughts from "./components/Thoughts";
-import AboutProject from "./components/AboutProject";
-import Works from "./components/Works";
-
+import { useEffect } from 'react'
+//import style from "./App.module.scss"
+import { useSearchParams } from 'react-router'
+import Pagination from './components/Pagination';
+import Biography from './components/Biography';
+import AboutProject from './components/AboutProject';
+import Works from './components/Works';
+import Thoughts from './components/Thoughts';
 
 function App() {
   const [searchParams] = useSearchParams();
-  const portfolioPage: string | null = searchParams.get('portfolioPage')
 
-  const renderPage = (): React.ReactNode => {
+  useEffect(() => {
+    console.log(searchParams.get('content'));
+  }, [searchParams])
 
-    if (portfolioPage) {
-      switch (portfolioPage) {
-        case "Biography":
-          return <Biography />
-        case "Thoughts":
-          return <Thoughts />
-        case "AboutTheProjectt":
-          return <AboutProject />
-        case "Works":
-          return <Works />
-        default:
-          return <div>ну и что ты тут забыл прогер хуев</div>
-      }
+  const routing = () => {
+    switch (searchParams.get('content')) {
+      case "Biography":
+        return (<>
+          <Pagination></Pagination>
+          <Biography></Biography>
+        </>)
+      case "AboutTheProject":
+        return (<>
+          <Pagination></Pagination>
+          <AboutProject></AboutProject>
+        </>)
+      case "Works":
+        return (<>
+          <Pagination></Pagination>
+          <Works></Works>
+        </>)
+      case "Thoughts":
+        return (<>
+          <Pagination></Pagination>
+          <Thoughts></Thoughts></>
+        )
+      default:
+        return <Pagination></Pagination>
     }
-
-    return <p>test</p>
   }
 
-
-
-
-
-
   return (
-    <Routes>
-      <Route
-        path="/"
-        element={
-          portfolioPage ?
-            (<section className={style.body}>
-              <Pagination></Pagination>
-              {renderPage()}
-            </section>) :
-            (<Pagination></Pagination>)
-        }
-      />
-    </Routes>
+    routing()
   )
 }
 

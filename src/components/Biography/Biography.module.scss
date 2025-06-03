@@ -1,5 +1,91 @@
 .body {
     width: 100%;
-    background-color: red;
-}
+    min-height: 800px;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    padding-bottom: 90px;
 
+    .content {
+        margin-top: 25px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        min-height: 200px;
+
+        .contentText {
+            width: calc(98% - 200px);
+
+            .contentTitle {
+                letter-spacing: 1px;
+                text-indent: 10px;
+                //background-color: red;
+                min-width: 300px;
+                font-size: 28px;
+
+                font-family: "Alfa Slab One", serif;
+                margin-bottom: 10px;
+
+                span {
+                    color: #B87333;
+                    font-size: 35px;
+                    font-family: "Alfa Slab One", serif;
+                }
+            }
+
+            .contentDesc {
+                margin-top: 10px;
+                letter-spacing: 1px;
+                text-indent: 10px;
+                font-size: 24px;
+                color: rgb(182, 182, 182);
+            }
+
+        }
+
+    }
+
+    .imgContent {
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+
+        img {
+            margin-right: 25px;
+            border-radius: 10px;
+            height: auto;
+            min-width: 400px;
+            max-width: 720px;
+
+            border: 3px solid #50c878;
+
+            margin-bottom: 25px;
+        }
+    }
+
+    .listContent {
+        margin-top: 25px;
+
+        p {
+            letter-spacing: 2px;
+            color: white;
+            font-size: 30px;
+            font-family: "Alfa Slab One", serif;
+        }
+
+        ul {
+            list-style: inside;
+
+            li {
+                font-size: 24px;
+
+                span {
+                    font-size: 26px;
+                    color: #B87333;
+                }
+            }
+        }
+
+    }
+}
