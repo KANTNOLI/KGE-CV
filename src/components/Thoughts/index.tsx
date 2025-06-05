@@ -29,7 +29,7 @@ function Thoughts() {
             </div>
 
             <div className={style.imgContent}>
-                <img tabIndex={2} src="https://web.fractureverse.space/66-66-66-66-6666/assets/img/KGE5.png" alt="" />
+                <img tabIndex={2} src="https://hubabuba.space/66-66-66-66-6666/assets/img/KGE5.png" alt="" />
             </div>
 
             <div className={style.content}>
@@ -40,7 +40,7 @@ function Thoughts() {
             </div>
 
             <div className={style.imgContent}>
-                <img tabIndex={4} src="https://web.fractureverse.space/66-66-66-66-6666/assets/img/KGE6.png" alt="" />
+                <img tabIndex={4} src="https://hubabuba.space/66-66-66-66-6666/assets/img/KGE6.png" alt="" />
             </div>
 
 

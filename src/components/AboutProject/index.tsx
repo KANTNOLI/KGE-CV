@@ -38,7 +38,7 @@ function AboutProject() {
 
 
             <div className={style.imgContent}>
-                <img tabIndex={3} src="https://web.fractureverse.space/66-66-66-66-6666/assets/img/KGE1.png" alt="" />
+                <img tabIndex={3} src="https://hubabuba.space/66-66-66-66-6666/assets/img/KGE1.png" alt="" />
             </div>
 
 
@@ -52,7 +52,7 @@ function AboutProject() {
             </div>
 
             <div className={style.imgContent}>
-                <img tabIndex={5} src="https://web.fractureverse.space/66-66-66-66-6666/assets/img/KGE2.png" alt="" />
+                <img tabIndex={5} src="https://hubabuba.space/66-66-66-66-6666/assets/img/KGE2.png" alt="" />
             </div>
 
             <div className={style.content}>
@@ -68,7 +68,7 @@ function AboutProject() {
             </div>
 
             <div className={style.imgContent}>
-                <img tabIndex={7} src="https://web.fractureverse.space/66-66-66-66-6666/assets/img/KGE3.png" alt="" />
+                <img tabIndex={7} src="https://hubabuba.space/66-66-66-66-6666/assets/img/KGE3.png" alt="" />
             </div>
 
 
@@ -85,7 +85,7 @@ function AboutProject() {
             </div>
 
             <div className={style.imgContent}>
-                <img tabIndex={9} src="https://web.fractureverse.space/66-66-66-66-6666/assets/img/KGE4.png" alt="" />
+                <img tabIndex={9} src="https://hubabuba.space/66-66-66-66-6666/assets/img/KGE4.png" alt="" />
             </div>
 
             <div className={style.content}>
