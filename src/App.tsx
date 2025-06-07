@@ -7,6 +7,8 @@ import AboutProject from './components/AboutProject';
 import Works from './components/Works';
 import Thoughts from './components/Thoughts';
 
+//import style from "./App.module.scss"
+
 function App() {
   const [searchParams] = useSearchParams();
 

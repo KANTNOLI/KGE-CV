@@ -3,6 +3,12 @@
   padding: 0;
   margin: 0;
   font-family: "Pixelify Sans", sans-serif;
-  
+
   color: white;
+}
+
+.body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
